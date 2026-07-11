@@ -1,0 +1,6 @@
+# robots.txt — V4 Fitness Hub
+User-agent: *
+Allow: /
+
+# TODO: replace with your live domain before publishing
+Sitemap: https://v4fitnesshub.in/sitemap.xml

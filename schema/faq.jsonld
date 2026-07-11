@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Where is V4 Fitness Hub located?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "V4 has two branches in North Chennai — V4 Fitness Hub in Kodungaiyur and V4 Fitness & Rehab in Madhavaram."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer sports rehabilitation and physiotherapy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our Madhavaram branch is a dedicated fitness & rehab facility offering injury recovery, post-surgery rehab, mobility training and physiotherapy support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I book a free trial?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Use the Book Free Trial button or message us on WhatsApp to schedule a complimentary trial session at either branch."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide personal training and nutrition guidance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Certified personal trainers provide customised workout programs and nutrition guidance as part of our coaching."
+      }
+    }
+  ]
+}

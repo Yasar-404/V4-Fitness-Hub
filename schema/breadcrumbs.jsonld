@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://v4fitnesshub.in/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://v4fitnesshub.in/#services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Membership",
+      "item": "https://v4fitnesshub.in/#membership"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Branches",
+      "item": "https://v4fitnesshub.in/#branches"
+    }
+  ]
+}

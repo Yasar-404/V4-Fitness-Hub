@@ -1,0 +1,83 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "HealthClub",
+        "ExerciseGym",
+        "LocalBusiness"
+      ],
+      "@id": "https://v4fitnesshub.in/#kodungaiyur",
+      "name": "V4 Fitness Hub — Kodungaiyur",
+      "url": "https://v4fitnesshub.in/",
+      "telephone": "+919080231838",
+      "priceRange": "₹₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Kodungaiyur",
+        "addressLocality": "Chennai",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "600118",
+        "addressCountry": "IN"
+      },
+      "areaServed": "Kodungaiyur, Chennai",
+      "sameAs": [
+        "https://www.instagram.com/v4fitnesshub/"
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "05:00",
+          "closes": "22:00"
+        }
+      ]
+    },
+    {
+      "@type": [
+        "HealthClub",
+        "PhysicalTherapy",
+        "LocalBusiness"
+      ],
+      "@id": "https://v4fitnesshub.in/#madhavaram",
+      "name": "V4 Fitness & Rehab — Madhavaram",
+      "url": "https://v4fitnesshub.in/",
+      "telephone": "+917845100604",
+      "priceRange": "₹₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Madhavaram",
+        "addressLocality": "Chennai",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "600060",
+        "addressCountry": "IN"
+      },
+      "areaServed": "Madhavaram, Chennai",
+      "sameAs": [
+        "https://www.instagram.com/v4fitness_rehab/"
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "05:00",
+          "closes": "22:00"
+        }
+      ]
+    }
+  ]
+}

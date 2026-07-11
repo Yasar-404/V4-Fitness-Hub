@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- ==========================================
+     Head
+========================================== -->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#050507" />
+<link rel="icon" type="image/png" href="./images/v4-fitness-logo.png">
+<link rel="icon" type="image/x-icon" href="./images/v4-fitness-logo.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="./images/v4-fitness-logo.png">
+<link rel="mask-icon" href="./images/v4-fitness-logo.png" color="#1e86d6" />
+
+<!-- ============ PRIMARY SEO ============ -->
+<title>V4 Fitness Hub | Best Gym in Kodungaiyur &amp; Madhavaram, Chennai</title>
+<meta name="description" content="V4 Fitness Hub — premium gym, personal training &amp; sports rehabilitation in Kodungaiyur and Madhavaram, Chennai. Strength, fat loss, physiotherapy &amp; transformation programs. Book a free trial." />
+<meta name="keywords" content="Best Gym in Kodungaiyur, Best Gym in Madhavaram, Fitness Center Kodungaiyur, Fitness Center Madhavaram, Personal Training Chennai, Weight Loss Center Chennai, Fitness Rehab Chennai, Sports Rehabilitation Chennai, Gym Near Me, Premium Gym Chennai, V4 Fitness Hub, V4 Fitness and Rehab" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta name="author" content="V4 Fitness Hub" />
+<!-- TODO: replace with your live domain -->
+<link rel="canonical" href="https://v4fitnesshub.in/" />
+
+<!-- ============ OPEN GRAPH ============ -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="V4 Fitness Hub" />
+<meta property="og:title" content="V4 Fitness Hub | Elite Training &amp; Rehab in Chennai" />
+<meta property="og:description" content="Premium fitness, personal training and sports rehabilitation across two Chennai branches — Kodungaiyur &amp; Madhavaram." />
+<meta property="og:url" content="https://v4fitnesshub.in/"/>
+
+<!-- ============ TWITTER ============ -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="V4 Fitness Hub | Elite Training &amp; Rehab, Chennai" />
+<meta name="twitter:description" content="Premium gym, personal training and sports rehab in Kodungaiyur &amp; Madhavaram, Chennai." />
+
+<!-- ============ FONTS ============ -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://api.fontshare.com" />
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+
+<!-- ==========================================
+     Custom Cursor
+========================================== -->
+
+<div class="progress" id="progress"></div>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- ==========================================
+     Navigation
+========================================== -->
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <a href="#home" class="brand" data-mag><span class="logo-mark brand-mark" role="img" aria-label="V4 Fitness Hub logo"></span>V4<b>.</b></a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#transformations">Results</a>
+      <a href="#membership">Membership</a>
+      <a href="#lab">Tools</a>
+      <a href="#branches">Branches</a>
+    </div>
+    <div class="nav-cta">
+      <a href="#contact" class="btn btn-primary" data-mag>Book Free Trial</a>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<div class="drawer" id="drawer">
+  <a href="#about"><span>01</span>About</a>
+  <a href="#services"><span>02</span>Services</a>
+  <a href="#transformations"><span>03</span>Results</a>
+  <a href="#membership"><span>04</span>Membership</a>
+  <a href="#lab"><span>05</span>Tools</a>
+  <a href="#branches"><span>06</span>Branches</a>
+  <a href="#contact"><span>07</span>Contact</a>
+</div>
+
+<!-- ==========================================
+     Hero Section
+========================================== -->
+<header class="hero" id="home">
+  <div class="hero-photo" aria-hidden="true"></div>
+  <canvas id="atmos"></canvas>
+  <div class="hero-grid" aria-hidden="true"></div>
+  <!-- To use a real cinematic clip, drop a <video autoplay muted loop playsinline> here behind the canvas. -->
+  <div class="wrap">
+    <div class="hero-eyebrow"><span class="eyebrow">Elite Fitness · Rehab · Chennai</span></div>
+    <h1>
+      <span class="line"><span>Transform your</span></span>
+      <span class="line"><span><em>body.</em> Elevate</span></span>
+      <span class="line"><span>your performance.</span></span>
+    </h1>
+    <p class="hero-sub"><b>Elite training, strength &amp; conditioning and sports rehabilitation</b> across two premium North-Chennai facilities — Kodungaiyur &amp; Madhavaram.</p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn btn-primary" data-mag>Start your journey
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a href="#membership" class="btn btn-ghost" data-mag>Book free trial</a>
+    </div>
+    <div class="stats" id="stats">
+      <div class="stat"><div class="num" data-count="1000" data-suffix="+">0</div><div class="lbl">Transformations</div></div>
+      <div class="stat"><div class="num" data-count="10" data-suffix="+">0</div><div class="lbl">Certified Coaches</div></div>
+      <div class="stat"><div class="num" data-count="2">0</div><div class="lbl">Premium Locations</div></div>
+      <div class="stat"><div class="num" data-count="5" data-suffix="★">0</div><div class="lbl">Client Experience</div></div>
+    </div>
+  </div>
+</header>
+
+<div class="seam"></div>
+
+<!-- ==========================================
+     About
+========================================== -->
+<section class="about sec-bg" id="about" style="--sbg:var(--s2)">
+  <div class="wrap">
+    <div class="about-grid">
+      <div>
+        <span class="eyebrow reveal">// 01 · The Brand</span>
+        <h2 class="reveal" data-d="1" style="font-size:clamp(32px,5vw,60px);margin:18px 0 20px">Built for people who refuse to plateau.</h2>
+        <p class="reveal" data-d="2" style="color:var(--muted);font-size:17px;max-width:54ch">V4 began with a simple conviction: a gym should do more than count reps. It should rebuild, restore and engineer the body. From our Kodungaiyur performance floor to our Madhavaram rehab facility, every program is coached, measured and personal.</p>
+        <div class="pillars">
+          <div class="pillar reveal" data-d="1"><div class="k">VISION</div><h4>A performance lab, not a local gym.</h4><p>Train with intent, data and recovery science — the standard you'd expect from an elite club.</p></div>
+          <div class="pillar reveal" data-d="2"><div class="k">MISSION</div><h4>Make world-class coaching local.</h4><p>Certified coaches, customised programming and rehab expertise, walking distance from home.</p></div>
+          <div class="pillar reveal" data-d="3"><div class="k">PHILOSOPHY</div><h4>Train. Recover. Transform.</h4><p>Strength and rehabilitation under one roof, so progress never stops at an injury.</p></div>
+        </div>
+      </div>
+      <div>
+        <div class="about-photo reveal" data-d="1" aria-hidden="true"></div>
+        <div class="timeline reveal" data-d="2" id="timeline"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================
+     Services
+========================================== -->
+<section class="services sec-bg" id="services" style="--sbg:var(--s1)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">// 02 · What we do</span>
+      <h2 class="grad">Programs engineered<br/>around your goal.</h2>
+      <p>Nine specialised disciplines, one coached system — from raw strength to clinical recovery.</p>
+    </div>
+    <div class="svc-grid" id="svcGrid"></div>
+  </div>
+</section>
+
+<div class="seam"></div>
+
+<!-- ==========================================
+     Why Choose V4
+========================================== -->
+<section class="why sec-bg" id="why" style="--sbg:var(--s3)">
+  <div class="wrap">
+    <div class="why-grid">
+      <div>
+        <span class="eyebrow reveal">// 03 · The edge</span>
+        <h2 class="reveal" data-d="1" style="font-size:clamp(30px,4.4vw,52px);margin:18px 0 20px">Why members<br/>stay with V4.</h2>
+        <p class="reveal" data-d="2" style="color:var(--muted);max-width:42ch">We measure what other gyms guess. Every advantage below is tracked and reviewed with your coach.</p>
+        <div class="why-photo reveal" data-d="3" aria-hidden="true"></div>
+      </div>
+      <div class="why-card reveal" data-d="1">
+        <div class="badge">PERFORMANCE INDEX</div>
+        <h3>What sets the floor apart</h3>
+        <div class="bars" id="whyBars"></div>
+        <div class="chips">
+          <span class="chip"><b>Certified</b> trainers</span>
+          <span class="chip"><b>Rehab</b> expertise</span>
+          <span class="chip"><b>Custom</b> programs</span>
+          <span class="chip"><b>Community</b> support</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================
+     Transformations
+========================================== -->
+<section class="trans sec-bg" id="transformations" style="--sbg:var(--s4)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">// 04 · Proof</span>
+      <h2 class="grad">Real bodies.<br/>Measured change.</h2>
+      <p>Drag the slider on each card to reveal the transformation.</p>
+    </div>
+    <div class="ba-grid" id="baGrid"></div>
+  </div>
+</section>
+
+<div class="seam"></div>
+
+<!-- ==========================================
+     Equipment
+========================================== -->
+<section class="equip sec-bg" id="equipment" style="--sbg:var(--s7)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">// 05 · The floor</span>
+      <h2 class="grad">Premium equipment.<br/>Hover to inspect.</h2>
+      <p>Four dedicated zones built around commercial-grade machines and free weights.</p>
+    </div>
+    <div class="eq-grid" id="eqGrid"></div>
+  </div>
+</section>
+
+<!-- ==========================================
+     Rehab Center
+========================================== -->
+<section class="rehab sec-bg" id="rehab" style="--sbg:var(--s6)">
+  <div class="wrap">
+    <div class="rehab-wrap reveal">
+      <div class="rehab-grid">
+        <div class="rehab-left">
+          <span class="eyebrow">// 06 · Madhavaram facility</span>
+          <h2>Rehab &amp;<br/>recovery center.</h2>
+          <p>Our Madhavaram branch is a dedicated fitness &amp; rehab facility — clinical recovery and performance under one roof, supervised by trained specialists.</p>
+          <div class="rehab-list">
+            <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>Injury recovery</div>
+            <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>Mobility training</div>
+            <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>Post-surgery rehab</div>
+            <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>Sports rehabilitation</div>
+          </div>
+        </div>
+        <div class="rehab-right">
+          <div class="pulse"><i></i><i></i><i></i><b>RECOVER</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="seam"></div>
+
+<!-- ==========================================
+     Membership Plans
+========================================== -->
+<section class="member sec-bg" id="membership" style="--sbg:var(--s4)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">// 07 · Membership</span>
+      <h2 class="grad">Plans that<br/>scale with commitment.</h2>
+      <p>The longer you commit, the more you save. All plans include a free fitness assessment.</p>
+    </div>
+    <div class="plans" id="plans"></div>
+  </div>
+</section>
+
+<!-- ==========================================
+     Trainers
+========================================== -->
+<section class="trainers sec-bg" id="trainers" style="--sbg:var(--s6)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">// 08 · The team</span>
+      <h2 class="grad">Coaches who<br/>build careers in fitness.</h2>
+      <p>Certified, specialised and obsessed with your progress.</p>
+    </div>
+    <div class="tr-grid" id="trGrid"></div>
+  </div>
+</section>
+
+<div class="seam"></div>
+
+<!-- ==========================================
+     Testimonials
+========================================== -->
+<section class="testi sec-bg" id="testimonials" style="--sbg:var(--s1)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">// 09 · Voices</span>
+      <h2 class="grad">Members on the<br/>V4 difference.</h2>
+      <p>Placeholder reviews — pull these from your Google &amp; Instagram testimonials.</p>
+    </div>
+    <div style="overflow:hidden"><div class="testi-track" id="testiTrack"></div></div>
+    <div class="testi-nav">
+      <button id="tPrev" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M11 18l-6-6 6-6"/></svg></button>
+      <button id="tNext" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================
+     Performance Lab
+========================================== -->
+<section class="lab sec-bg" id="lab" style="--sbg:var(--s3)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">// 10 · Performance lab</span>
+      <h2 class="grad">Know your numbers.</h2>
+      <p>Seven free, instant tools. Every result updates live as you type.</p>
+    </div>
+    <div class="lab-shell reveal" data-d="1">
+      <div class="lab-tabs" id="labTabs"></div>
+      <div id="labPanels"></div>
+      <div class="lab-disclaimer">Estimates for general guidance only — not medical advice. Speak to a V4 coach for a personalised plan.</div>
+    </div>
+  </div>
+</section>
+
+<div class="seam"></div>
+
+<!-- ==========================================
+     Branches
+========================================== -->
+<section class="branches sec-bg" id="branches" style="--sbg:var(--s5)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">// 11 · Find us</span>
+      <h2 class="grad">Two branches.<br/>North Chennai.</h2>
+      <p>Drop in for a tour, or tap to call the branch nearest you.</p>
+    </div>
+    <div class="br-grid" id="brGrid"></div>
+  </div>
+</section>
+
+<!-- ==========================================
+     Contact
+========================================== -->
+<section class="contact sec-bg" id="contact" style="--sbg:var(--s2)">
+  <div class="wrap">
+    <div class="ct-grid">
+      <div class="ct-left">
+        <span class="eyebrow reveal">// 12 · Get started</span>
+        <h2 class="reveal" data-d="1">Book your<br/>free trial.</h2>
+        <p class="reveal" data-d="2">Tell us your goal and preferred branch. We'll confirm your complimentary session within the day.</p>
+        <div class="ct-quick reveal" data-d="2">
+          <a href="https://wa.me/919080231838" data-mag>
+            <span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.5A10 10 0 1 0 12 2Zm5.3 14c-.2.6-1.2 1.2-1.7 1.2-.4 0-1 .1-3.3-.9-2.8-1.2-4.5-4-4.7-4.2-.1-.2-1-1.4-1-2.6 0-1.3.6-1.9.9-2.1.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.5c-.2.2-.3.4-.1.7.2.3.8 1.4 1.8 2.2 1.3 1.1 2.3 1.4 2.6 1.5.2.1.4.1.6-.1l.7-.9c.2-.3.4-.2.6-.1l1.9.9c.3.2.5.2.5.4.1.2.1.7-.1 1.2Z"/></svg></span>
+            <div><b>WhatsApp us</b><span>+91 90802 31838</span></div>
+          </a>
+          <a href="tel:+919080231838" data-mag>
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.5-1.2a2 2 0 0 1 2.1-.4c.8.3 1.7.5 2.6.6a2 2 0 0 1 1.7 2Z"/></svg></span>
+            <div><b>Click to call</b><span>Kodungaiyur · Madhavaram</span></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="form reveal" data-d="1">
+        <div class="form-row">
+          <div class="field"><label for="f-name">Name</label><input id="f-name" type="text" placeholder="Your name" autocomplete="name"/></div>
+          <div class="field"><label for="f-mobile">Mobile number</label><input id="f-mobile" type="tel" placeholder="10-digit mobile" autocomplete="tel"/></div>
+        </div>
+        <div class="field"><label for="f-email">Email</label><input id="f-email" type="email" placeholder="you@email.com" autocomplete="email"/></div>
+        <div class="form-row">
+          <div class="field"><label for="f-goal">Goal</label>
+            <select id="f-goal">
+              <option value="">Select a goal</option>
+              <option>Fat loss</option><option>Muscle building</option><option>Strength &amp; conditioning</option>
+              <option>Injury rehabilitation</option><option>General fitness</option><option>Sports performance</option>
+            </select></div>
+          <div class="field"><label for="f-branch">Preferred branch</label>
+            <select id="f-branch">
+              <option value="">Select a branch</option>
+              <option>Kodungaiyur</option><option>Madhavaram (Rehab)</option>
+            </select></div>
+        </div>
+        <div class="field"><label for="f-msg">Message</label><textarea id="f-msg" placeholder="Anything we should know?"></textarea></div>
+        <button class="btn btn-primary" id="sendBtn" data-mag>Send via WhatsApp
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.5A10 10 0 1 0 12 2Z"/></svg></button>
+        <p class="hint">Opens WhatsApp with your details pre-filled — no data is stored.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================
+     Footer
+========================================== -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <span class="logo-mark foot-mark" role="img" aria-label="V4 Fitness Hub"></span>
+        <p>Elite training, strength &amp; conditioning and sports rehabilitation in Kodungaiyur &amp; Madhavaram, Chennai.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Explore</h5>
+        <a href="#about">About</a><a href="#services">Services</a>
+        <a href="#transformations">Results</a><a href="#lab">Tools</a>
+      </div>
+      <div class="foot-col">
+        <h5>Branches</h5>
+        <a href="https://maps.app.goo.gl/Yrdk6peVf3sooDN37" target="_blank" rel="noopener">Kodungaiyur</a>
+        <a href="https://maps.app.goo.gl/WMPCdHyin6iFC2SaA" target="_blank" rel="noopener">Madhavaram</a>
+        <a href="tel:+919080231838">+91 90802 31838</a>
+        <a href="tel:+917845100604">+91 78451 00604</a>
+      </div>
+      <div class="foot-col">
+        <h5>Social</h5>
+        <a href="https://www.instagram.com/v4fitnesshub/" target="_blank" rel="noopener">@v4fitnesshub</a>
+        <a href="https://www.instagram.com/v4fitness_rehab/" target="_blank" rel="noopener">@v4fitness_rehab</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="yr"></span> V4 Fitness Hub. All rights reserved.</span>
+      <span class="by">Designed &amp; built by Yasar Designs</a></span>
+    </div>
+  </div>
+</footer>
+
+<div class="fab">
+  <a class="wa" href="https://wa.me/919080231838" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.5A10 10 0 1 0 12 2Zm5.3 14c-.2.6-1.2 1.2-1.7 1.2-.4 0-1 .1-3.3-.9-2.8-1.2-4.5-4-4.7-4.2-.1-.2-1-1.4-1-2.6 0-1.3.6-1.9.9-2.1.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.5c-.2.2-.3.4-.1.7.2.3.8 1.4 1.8 2.2 1.3 1.1 2.3 1.4 2.6 1.5.2.1.4.1.6-.1l.7-.9c.2-.3.4-.2.6-.1l1.9.9c.3.2.5.2.5.4.1.2.1.7-.1 1.2Z"/></svg></a>
+  <a class="call" href="tel:+919080231838" aria-label="Call"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.5-1.2a2 2 0 0 1 2.1-.4c.8.3 1.7.5 2.6.6a2 2 0 0 1 1.7 2Z"/></svg></a>
+</div>
+<!-- JavaScript -->
+<script src="js/config.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/render.js"></script>
+<script src="js/calculators.js"></script>
+<script src="js/interactions.js"></script>
+<script src="js/particles.js"></script>
+</body>
+</html>
